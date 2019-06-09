@@ -243,14 +243,8 @@ h6 {
   padding: 10px 32px;
   border-radius: 50px;
   transition: 0.5s;
+  margin: 0 20px 20px 0;
   color: #fff;
-  margin-top: 20px !important;
-
-}
-.text-center{
-  margin-top: 5px;
-  padding-top: 0px;
-  height: 194px;
 }
 
 #intro .intro-info .btn-get-started {
@@ -1580,9 +1574,10 @@ h6 {
     margin-bottom: 100px !important;
   }
 
-.lala{
-  margin-top: 175px !important;
-}
+  .scrollto{
+    margin-top: 175px !important;
+  }
+
   #intro .intro-info  span {
     
     display: none;
@@ -1597,7 +1592,7 @@ h6 {
 
 .robot svg {
   position: absolute;
-  top: 32%;
+  top: 27%;
   left: 75%;
   display: block;
   margin: 0 auto;
@@ -1778,4 +1773,89 @@ button:focus {
     box-shadow: 0 10px 10px #bababa;
     transform: translateY(3px);
   }
+}
+
+
+
+
+#premios {
+  padding: 60px 0;
+  background: rgb(70,108,255);
+  background: linear-gradient(90deg, rgba(70,108,255,1) 0%, rgba(0,175,251,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+#premios .section-header h3,
+#premios .section-header p {
+  color: #fff;
+}
+
+#premios .card {
+  background: #376bff;
+  border-color: #376bff;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.card-text{
+  padding-top: 50px;
+  font-size: 19px !important;
+  margin-bottom: 0px !important;
+}
+
+#premios .card:hover {
+  background: #003b7a;
+  border-color: #376bff;
+}
+
+#premios .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#premios .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#premios .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#premios .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#premios .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#premios .counters {
+  padding-top: 40px;
+}
+
+#premios .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#premios .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
 }
